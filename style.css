@@ -1,0 +1,197 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Exo 2', sans-serif;
+    overflow: hidden;
+
+}
+
+body {
+    background-image: url(./img/Pattern.png);
+}
+
+a {
+    color: #1698d9;
+
+}
+
+.shadow {
+    opacity: 20%;
+    position: fixed;
+    padding: 0;
+    margin: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(black,transparent,black);
+
+}
+
+.header {
+    height: 78px;
+
+}
+
+.header h1 {
+    font-weight: 100;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding: 40px 0px 20px 0px;
+}
+
+.body {
+    padding-top: 40px;
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.caption p {
+    color: white;
+    font-weight: 400;
+    text-align: center;
+    font-size: 13px;
+}
+
+.caption3 p {
+    color: #f6f65b;
+    font-weight: 400;
+    text-align: center;
+    font-size: 13px;
+}
+
+.mainCard {
+    display: inline-block;
+}
+
+.container {
+    display: inline-block;
+    clip-path: polygon(16% 0, 100% 0, 100% 100%, 0 100%, 0 13%);
+    background-color: #1698d9;
+    height: 486px;
+    width: 316px;
+    border-radius: 6px;
+
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+
+.notAvailable {
+    z-index: 1;
+    position: relative;
+    opacity: 80%;
+    background-color: #b3b3b3;
+    height: 480px;
+    width: 310px;
+    border-radius: 6px;
+}
+
+
+.card {
+    position: relative;
+    color: black;
+    height: 480px;
+    width: 310px;
+    border-radius: 6px;
+    border-top-left-radius: 0 100%;
+    background-color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    clip-path: polygon(16% 0, 100% 0, 100% 100%, 0 100%, 0 13%);
+    left: 3px;
+    top: 3px;
+}
+
+#img-cat {
+    position: relative;
+    right: 53%;
+    top: 3%;
+}
+
+
+
+
+.card h1 {
+    font-weight: bold;
+    font-size: 47px;
+}
+
+.card h2 {
+    font-size: 24px;
+}
+
+.card p {
+
+    font-weight: 300;
+    padding-top: 25px;
+}
+
+.card br {
+    display: block;
+    margin-bottom: 0;
+
+}
+
+.weight-Circle {
+    position: relative;
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    right: 5%;
+    bottom: 3%;
+}
+
+.weight-Circle h1 {
+    color: white;
+    padding-top: 2px;
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    text-align: center;
+}
+
+.weight-Circle h2 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.detail-C1 {
+    background-color: #1698d9;
+}
+
+.detail-C2 {
+    background-color: #d91667;
+}
+
+.detail-C3 {
+    background-color: #b3b3b3;
+}
+
+.card1_bg:hover{
+    box-shadow: 15px 5px 15px black;
+    background-color: #1698d9;
+    color: white
+}
+.card2_bg:hover{
+    box-shadow: 15px 5px 15px black;
+    background-color: #d91667;
+    color: white
+}
+.card3_bg:hover{
+    box-shadow: 15px 5px 15px black;
+    background-color: #b3b3b3;
+    color: white
+}
+
+
+
